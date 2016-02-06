@@ -70,7 +70,7 @@ document.writeln("");
 document.writeln("</style><div id=\"applea\">");
 document.writeln("<a href=\"javascript:spowork1();\">百科知识</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork2();\">我国现状</a>&nbsp;&nbsp;&nbsp;");
-document.writeln("<a href=\"javascript:spowork3();\">问卷调查</a>&nbsp;&nbsp;&nbsp;");
+document.writeln("<a href=\"javascript:spowork3();\" style=\"color:red;\">问卷调查</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork4();\">问卷情况</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork5();\" style=\"color:red;\">宣传相关</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork6();\" style=\"color:blue;\">轻松娱乐</a>&nbsp;&nbsp;&nbsp;");
