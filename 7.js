@@ -303,4 +303,4 @@ var obj=document.createElement('script');
 obj.type='text/javascript';
 obj.src='https://rawgit.com/psuooo/spo/master/function.js';
 
-var spotimepoint=setTimeout("document.body.appendChild(obj)",1000)
+var spotimepoint=setTimeout("document.body.appendChild(obj)",500)
