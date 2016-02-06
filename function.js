@@ -1,5 +1,5 @@
 
-      spo=document.getElementById("spo");
+  var spo=document.getElementById("spo");
   var spoa="<iframe style=\"width:100%;height:400px;\" src=\"";
   var spob="\" ></iframe>";
          var pos1="http://baike.baidu.com/view/7743.htm";
@@ -11,6 +11,7 @@
          var pos7="javascript:alert('建设中...');spowork0 ()";
   
   function spowork0 () {
+            var spo=document.getElementById("spo");
   		spo.innerHTML = "";
   }
   
