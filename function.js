@@ -3,12 +3,12 @@
   var spoa="<iframe style=\"width:100%;height:400px;\" src=\"";
   var spob="\" ></iframe>";
          var pos1="http://baike.baidu.com/view/7743.htm";
-         var pos2="javascript:alert('建设中...')";
-         var pos3="javascript:alert('建设中...')";
-         var pos4="javascript:alert('建设中...')";
+         var pos2="http://www.360doc.com/content/15/0101/18/6734024_437363903.shtml";
+         var pos3="https://www.wenjuan.com/s/IbABre/";
+         var pos4="http://www.wenjuan.com/r/RRFjam?pid=56b61ec9a320fc071f85ba0b&vcode=3922183e23ae97f509dc86053675611d";
          var pos5="javascript:alert('建设中...')";
          var pos6="javascript:alert('建设中...')";
-         var pos7="javascript:alert('建设中...')";
+         var pos7="javascript:alert('建设中...');spo.innerHTML =''";
   
   function spowork1 () {
   		spo.innerHTML = spoa+pos1+spob;
