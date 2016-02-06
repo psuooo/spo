@@ -1,4 +1,4 @@
-document.writeln("<html><head>");
+window.onload = function(){document.writeln("<html><head>");
 document.writeln("<title>【0.0</title>");
 document.writeln("<meta charset=\"gb2312\">");
 document.writeln("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
@@ -631,3 +631,4 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("</body></html>");
+};
