@@ -121,6 +121,6 @@ obj4.type='text/javascript';
 obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
 
 var spotimepoint1=setTimeout("document.body.appendChild(obj1)",500);
-var spotimepoint2=setTimeout("document.body.appendChild(obj2)",500);
-var spotimepoint3=setTimeout("document.body.appendChild(obj3)",500);
-var spotimepoint4=setTimeout("document.body.appendChild(obj4)",500);
+var spotimepoint2=setTimeout("document.body.appendChild(obj2)",510);
+var spotimepoint3=setTimeout("document.body.appendChild(obj3)",520);
+var spotimepoint4=setTimeout("document.body.appendChild(obj4)",530);
