@@ -7,7 +7,7 @@
          var pos3="https://www.wenjuan.com/s/IbABre/";
          var pos4="http://www.wenjuan.com/r/RRFjam?pid=56b61ec9a320fc071f85ba0b&vcode=3922183e23ae97f509dc86053675611d";
          var pos5="http://xgz.bcschool.cn:8080/czbg_gaoer/uploadimg/QRcode.png";
-         var pos6="javascript:alert('建设中...')";
+         var pos6="http://xgz.bcschool.cn:8080/czbg_gaoer/studentpage.php?studentid=Circle";
          var pos7="javascript:alert('建设中...');parent.spowork0 ()";
   
   function spowork0 () {
