@@ -258,7 +258,7 @@ var cg = {
      this.ctx.shadowBlur = 1;
      this.ctx.shadowOffsetX = 1;
      this.ctx.shadowOffsetY = 1;
-     w = this.ctx.measureText(t = 'Eat smaller dots. Avoid bigger dots.').width
+     w = this.ctx.measureText(t = '球球小作战，点击屏幕重新开始').width
      this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2 + 40)
    }
  }
