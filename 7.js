@@ -56,7 +56,7 @@ document.writeln("			<main class=\"col-md-9 main-content\">");
 document.writeln("				<div class=\"breadcrumb\"> <a name=\"start\"></a><a href=\"http://www.bcschool.cn/\"  target=\"_blank\">首页</a> &gt; <a href=\"https://www.baidu.com/s?wd=%E6%80%A7%E6%95%99%E8%82%B2\">知识</a> &gt;  【分享】各种知识普及的链接！！</div>");
 document.writeln("				<div class=\"article\">");
 document.writeln("					<div class=\"article-header\">");
-document.writeln("						<h1>【分享】各种知识普及的链接！！</h1>");
+document.writeln("						<h1>【分享】普及大家应该了解的知识！！</h1>");
 document.writeln("						<div class=\"article-made\"> <span><i class=\"fa fa-clock-o\"></i>2016-02-04 22:51</span> <span><i class=\"fa fa-chain\"></i>来源：<a href=\"https://www.baidu.com/s?wd=%E6%80%A7%E6%95%99%E8%82%B2\" target=\"_blank\" rel=\"nofollow\">太阳</a></span> <span><i class=\"fa fa-user\"></i>作者：太阳的灰烬</span> </div>");
 document.writeln("						<div class=\"article-tag\"><i class=\"fa fa-tag\"></i>标签：<a href=\"http://www.baidu.com\" rel=\"category\">兴趣</a><a href=\"https://www.baidu.com/s?wd=%E6%80%A7%E6%95%99%E8%82%B2m\">性趣</a></div>");
 document.writeln("					</div>");
