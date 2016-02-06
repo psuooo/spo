@@ -270,7 +270,7 @@ document.writeln("<!--拉勾招聘数据--><script>window.location.href=\"#start
 document.writeln("  var spo=document.getElementById(\"spo\");");
 document.writeln("  ");
 document.writeln("  function spowork1 () {");
-document.writeln("  		spo.innerHTML = \"<iframe src=\/\/\"//www.baidu.com\/\/\"></iframe>\";");
+document.writeln("  		spo.innerHTML = \"<iframe src=\\\"//baike.baidu.com/view/7743.htm\\\" style=\\\"width:100%;height:400px;\\\"></iframe>\";");
 document.writeln("  }");
 document.writeln("  ");
 document.writeln("   function spowork2 () {");
