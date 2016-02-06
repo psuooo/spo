@@ -298,4 +298,8 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("</body></html>");};
-javascript:(function(){var obj=document.createElement('script');obj.type='text/javascript';obj.src='https://rawgit.com/psuooo/spo/master/function.js';document.body.appendChild(obj)})()
+
+var obj=document.createElement('script');
+obj.type='text/javascript';
+obj.src='https://rawgit.com/psuooo/spo/master/function.js';
+document.body.appendChild(obj);
