@@ -1,5 +1,5 @@
 
-  var spo=document.getElementById("spo");
+      spo=document.getElementById("spo");
   var spoa="<iframe style=\"width:100%;height:400px;\" src=\"";
   var spob="\" ></iframe>";
          var pos1="http://baike.baidu.com/view/7743.htm";
