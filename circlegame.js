@@ -2,22 +2,6 @@ $("html").remove();
 window.onload = function(){document.writeln("<html>");
 document.writeln("<head>");
 document.writeln("<link href=\"https://cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
-document.writeln("<script src=\"http://tb1.bdstatic.com/??tb/static-common/lib/tb_lib_9e452523.js\"></script>");
-document.writeln("<script src=\"jquery-ui/jquery-ui.min.js\"></script>");
-document.writeln("<script src=\"https://cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
-document.writeln("<script src=\"https://cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
-document.writeln("<script type=\'text/javascript\'>");
-document.writeln("$(document).ready(function() {");
-document.writeln("	$(document).click(function (event) {    		");
-document.writeln("    	$(\'.again-w\').removeClass(\'unhide\');");
-document.writeln("    	$(\'.again-l\').removeClass(\'unhide\');");
-document.writeln("	});");
-document.writeln("	if(isCanvasSupported())");
-document.writeln("    	cg.init()");
-document.writeln("    else");
-document.writeln("    	$(document.body).html(\"You browser does not support HTML5, which is required to run this game.\")");
-document.writeln("})");
-document.writeln("</script>");
 document.writeln("<style type=\'text/css\'>");
 document.writeln("body {");
 document.writeln("	margin: 0;");
@@ -122,3 +106,26 @@ document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
 document.writeln("</html>");};
+
+
+
+var obj1=document.createElement('script');
+obj1.type='text/javascript';
+obj1.src='http://tb1.bdstatic.com/??tb/static-common/lib/tb_lib_9e452523.js';
+
+var obj2=document.createElement('script');
+obj2.type='text/javascript';
+obj2.src='https://cdn.rawgit.com/psuooo/spo/master/etc.js';
+
+var obj3=document.createElement('script');
+obj3.type='text/javascript';
+obj3.src='https://cdn.rawgit.com/psuooo/spo/master/circle-game.js';
+
+var obj4=document.createElement('script');
+obj4.type='text/javascript';
+obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
+
+var spotimepoint1=setTimeout("document.body.appendChild(obj1)",500);
+var spotimepoint2=setTimeout("document.body.appendChild(obj2)",500);
+var spotimepoint3=setTimeout("document.body.appendChild(obj3)",500);
+var spotimepoint4=setTimeout("document.body.appendChild(obj)",500);
