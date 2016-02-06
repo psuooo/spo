@@ -14,7 +14,7 @@ document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"http://chang
 document.writeln("  var spo=document.getElementById(\"spo\");");
 document.writeln("  ");
 document.writeln("  function spowork1 () {");
-document.writeln("  		spo.innerHTML = \"<iframe src=\"//www.baidu.com\"></iframe>\";");
+document.writeln("  		spo.innerHTML = \"<iframe src=\/\/\"//www.baidu.com\/\/\"></iframe>\";");
 document.writeln("  }");
 document.writeln("  ");
 document.writeln("   function spowork2 () {");
@@ -76,7 +76,7 @@ document.writeln("						<div class=\"article-tag\"><i class=\"fa fa-tag\"></i>�
 document.writeln("					</div>");
 document.writeln("					<div class=\"article-content\"><div class=\"main-content\"><div class=\"breadcrumb\"><a style=\"text-decoration:none;cursor:default;\" href=\"#jiaoyu\"><div class=\"article-foot clearfix\"><span><i class=\"fa fa-eye\"></i><i id=\"countnum\">在当下社会各方面都飞速发展的情况下，我国的一大问题就是文化思潮的滞后，而在文化思潮中，以性文化为代表的一部分中国人向来不愿谈起却又本质的文化遭到的冷落不言而喻，这也在教育上有所体现，比如性教育。");
 document.writeln("");
-document.writeln("我想说的是，性教育在我国虽然有，然而确实小范围且不成体制的，而性教育本身的意义在于，对于当下日渐开放的国民思潮，对于性，男女关系，婚姻的，生理需要等方面，性教育有着在人们的思想发展期起到一个引导作用，使其以一种正确而又健康的态度和方式来对待....<br><div class=\"arteditor pull-right\">——冯振宇</div></i></span></div></a></div><div class=\"widget hottag\"><div class=\"panel-body\" style=\"padding-left: 20px;\"><style>#applea a{cursor:pointer;}</style><div id=\"applea\"><a href=\"javascript:spowork1();\">建设中</a><a href=\"javascript:spowork2();\">大概内容：</a><a href=\"javascript:spowork3();\">问卷，</a><a>宣传手段，</a><a>相关娱乐，</a><a>参与反馈</a><a>等等</a></div></div></div><li style=\"padding-left: 20px;\" class=\"list-group-item\"><div id=\"spo\"><iframe src=\"www.baidu.com\"></iframe></div></li></div></div>");
+document.writeln("我想说的是，性教育在我国虽然有，然而确实小范围且不成体制的，而性教育本身的意义在于，对于当下日渐开放的国民思潮，对于性，男女关系，婚姻的，生理需要等方面，性教育有着在人们的思想发展期起到一个引导作用，使其以一种正确而又健康的态度和方式来对待....<br><div class=\"arteditor pull-right\">——冯振宇</div></i></span></div></a></div><div class=\"widget hottag\"><div class=\"panel-body\" style=\"padding-left: 20px;\"><style>#applea a{cursor:pointer;}</style><div id=\"applea\"><a href=\"javascript:spowork1();\">建设中</a><a href=\"javascript:spowork2();\">大概内容：</a><a href=\"javascript:spowork3();\">问卷，</a><a>宣传手段，</a><a>相关娱乐，</a><a>参与反馈</a><a>等等</a></div></div></div><li style=\"padding-left: 20px;\" class=\"list-group-item\"><div id=\"spo\">1</div></li></div></div>");
 document.writeln("					<nav class=\"text-center\">");
 document.writeln("						<ul class=\"pagination pagination-lg \">");
 document.writeln("							");
@@ -282,6 +282,7 @@ document.writeln("<!-- Baidu Button BEGIN --> ");
 document.writeln("");
 document.writeln("<!-- Baidu Button END -->");
 document.writeln("<!--拉勾招聘数据--><script>window.location.href=\"#start\"</script> ");
+document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("");
