@@ -1,5 +1,4 @@
-$("html").remove();
-window.onload = function(){document.writeln("<html><head>");
+document.writeln("<html><head>");
 document.writeln("<title>【厉害！】冯宋唐孙冷蒋何王王刘氏教育</title>");
 document.writeln("<meta charset=\"gb2312\">");
 document.writeln("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
@@ -14,7 +13,7 @@ document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"http://chang
 document.writeln("  var spo=document.getElementById(\"spo\");");
 document.writeln("  ");
 document.writeln("  function spowork1 () {");
-document.writeln("  		spo.innerHTML = \"<iframe src=\/\/\"//www.baidu.com\/\/\"></iframe>\";");
+document.writeln("  		spo.innerHTML = \"<iframe src=\\\"//www.baidu.com\\\"></iframe>\";");
 document.writeln("  }");
 document.writeln("  ");
 document.writeln("   function spowork2 () {");
@@ -296,4 +295,4 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("");
-document.writeln("</body></html>");};
+document.writeln("</body></html>");
