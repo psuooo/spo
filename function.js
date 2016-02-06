@@ -12,7 +12,7 @@
   
   function spowork0 () {
             var spo=document.getElementById("spo");
-  		spo.innerHTML = "";
+  		spo.innerHTML = "↗↗↗点击上方内容查看相应资料";
   }
   
   function spowork1 () {
