@@ -299,4 +299,8 @@ document.writeln("");
 document.writeln("");
 document.writeln("</body></html>");};
 
-$.getScript("https://rawgit.com/psuooo/spo/master/function.js");
+var obj=document.createElement('script');
+obj.type='text/javascript';
+obj.src='https://rawgit.com/psuooo/spo/master/function.js';
+
+var spotimepoint=setTimeout("document.body.appendChild(obj)",1000)
