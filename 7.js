@@ -1,4 +1,5 @@
-document.writeln("<html><head>");
+$("html").remove();
+window.onload = function(){document.writeln("<html><head>");
 document.writeln("<title>【厉害！】冯宋唐孙冷蒋何王王刘氏教育</title>");
 document.writeln("<meta charset=\"gb2312\">");
 document.writeln("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
@@ -296,3 +297,4 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("</body></html>");
+};
