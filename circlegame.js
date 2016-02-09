@@ -1,8 +1,5 @@
-//see...
+//s...
 
-var obj1=document.createElement('script');
-obj1.type='text/javascript';
-obj1.src='http://tb1.bdstatic.com/??tb/static-common/lib/tb_lib_9e452523.js';
 
 var obj2=document.createElement('script');
 obj2.type='text/javascript';
@@ -16,7 +13,7 @@ var obj4=document.createElement('script');
 obj4.type='text/javascript';
 obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
 
-document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4);
+document.body.appendChild(obj3);
 
 $("html").remove();
 window.onload = function(){document.writeln("<html>");
@@ -125,23 +122,8 @@ document.writeln("</html>");};
 
 
 
-var obj1=document.createElement('script');
-obj1.type='text/javascript';
-obj1.src='http://tb1.bdstatic.com/??tb/static-common/lib/tb_lib_9e452523.js';
 
-var obj2=document.createElement('script');
-obj2.type='text/javascript';
-obj2.src='https://cdn.rawgit.com/psuooo/spo/master/etc.js';
-
-var obj3=document.createElement('script');
-obj3.type='text/javascript';
-obj3.src='https://cdn.rawgit.com/psuooo/spo/master/circle-game.js';
-
-var obj4=document.createElement('script');
-obj4.type='text/javascript';
-obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
-
-var spotimepoint=setTimeout("document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4);",500)
+document.body.appendChild(obj2);document.body.appendChild(obj4);
 
 
 
