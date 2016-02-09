@@ -7,7 +7,7 @@ window.onload = function(){
 
 document.writeln("<html>");
 document.writeln("<head>");
-document.writeln("<script src=\"jquery.js\"></script>");
+document.writeln("<script src=\"jqueryui/jquery-1.9.1.js\"></script>");
 document.writeln("<style type=\'text/css\'>");
 document.writeln("body {margin: 0;padding: 0;font-family: Georgia, serif;text-shadow: 1px 2px #ccc;color: #fff;}");
 document.writeln("canvas {background-color: #eaeaea;width: 100%;height: 100%;}");
