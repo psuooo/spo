@@ -88,11 +88,19 @@ var cg = {
      circles: [],
      death: function() {
      	pts = cg.player.radius
+     	this.stop()
 	cg.init()
 	alert('你的教育结束，单击画面重新开始。')
      	
      },
-     
+     stop: function() {
+     	$(window).unbind('keydown')
+     	$(window).unbind('blur')
+     	$(document).unbind('touchmove')
+     	$(this.canvas).unbind('mousemove')
+     	cg.showCursor()
+     	this.player = false
+     },
      start: function() {
      	cg.dispText = function() {}
      	$(cg.canvas).unbind('click')
