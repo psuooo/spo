@@ -1,4 +1,4 @@
-$("html").remove();window.onload = function(){document.writeln("<html><body></body></html>");};
+//see...
 
 var obj1=document.createElement('script');
 obj1.type='text/javascript';
