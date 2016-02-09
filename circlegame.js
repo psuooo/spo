@@ -1,4 +1,4 @@
-//s8...
+//s9...
 
 
 $("html").remove();
@@ -6,7 +6,7 @@ window.onload = function(){document.writeln("<html><head>");
 document.writeln("<script src=\"jqueryui/jquery-1.9.1.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
-document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
+document.writeln("<script>$(document).ready(function() {$(document).click(function (event) {$('.again-w').removeClass('unhide');$('.again-l').removeClass('unhide');});cg.init()})</script>");
 document.writeln("<style type=\'text/css\'>");
 document.writeln("body {");
 document.writeln("	margin: 0;");
