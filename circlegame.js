@@ -1,11 +1,9 @@
-//s2...
+//s3...
 
 
-$("html").remove();
-window.onload = function(){document.writeln("<html>");
-document.writeln("<head>");
+$("body").remove();
+window.onload = function(){document.writeln("");
 document.writeln("<link href=\"https://cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
-document.writeln("<script src=\"//xgz.bcschool.cn:8080/czbg_gaoer/jqueryui/jquery-1.9.1.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
@@ -100,14 +98,14 @@ document.writeln(".unhide {");
 document.writeln("	display: block;");
 document.writeln("}");
 document.writeln("</style>");
-document.writeln("</head>");
+document.writeln("");
 document.writeln("<body>");
 document.writeln("<h1 class=\"points\"></h1>");
 document.writeln("<h2 class=\"int hide\"><span class=\"win\">Great Score!</span><br />Enter Your Initials:&nbsp;&nbsp;____<input type=\"text\" name=\"initials\" class=\"initials\" maxlength=\"3\" /><input type=\"submit\" value=\"Submit\" class=\"submit\"></h2>");
 document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
-document.writeln("</html>");};
+document.writeln("");};
 
 
 
