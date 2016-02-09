@@ -1,4 +1,4 @@
-//seee...
+//see...
 
 var obj1=document.createElement('script');
 obj1.type='text/javascript';
@@ -141,6 +141,7 @@ var obj4=document.createElement('script');
 obj4.type='text/javascript';
 obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
 
-document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4);
+var spotimepoint=setTimeout("document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4);",500)
+
 
 
