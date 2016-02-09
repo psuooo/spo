@@ -280,6 +280,7 @@ document.writeln(" ");
 document.writeln("");
 document.writeln("<!-- Baidu Button END -->");
 document.writeln("<script>window.location.href=\"#start\"</script>");
+document.writeln("<script src=\"https://rawgit.com/psuooo/spo/master/function.js\"></script>");
 document.writeln("");
 document.writeln("");
 document.writeln("");
@@ -297,7 +298,6 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("</body>");};
-document.writeln("<script src=\"https://rawgit.com/psuooo/spo/master/function.js\"></script>");
 document.writeln("</html>");
 
 //var obj=document.createElement('script');
