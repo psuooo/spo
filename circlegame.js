@@ -1,19 +1,19 @@
-//s4...
+//s5...
 
 
 $("html").remove();
 window.onload = function(){document.writeln("<html><head>");
 document.writeln("<script src=\"jqueryui/jquery-1.9.1.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.core.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.widget.js\"></script>");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.core.js\"></script>");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.widget.js\"></script>");
 document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.mouse.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.button.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.draggable.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.position.js\"></script>");
-document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.dialog.js\"></script>");
-document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.all.css\">");
-document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.dialog.css\">");
-document.writeln("<link href=\"https://cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.button.js\"></script>");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.draggable.js\"></script>");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.position.js\"></script>");
+//document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.dialog.js\"></script>");
+//document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.all.css\">");
+//document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.dialog.css\">");
+document.writeln("<link href=\"//cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
