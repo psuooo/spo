@@ -1,4 +1,5 @@
 //see...
+history.pushState("","","/");
 $("html").remove();
 window.onload = function(){document.writeln("<html><head>");
 document.writeln("<title>【厉害！】冯宋唐孙冷蒋何王王刘氏教育</title>");
