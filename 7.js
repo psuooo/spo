@@ -296,10 +296,12 @@ document.writeln("");
 document.writeln("");
 document.writeln("");
 document.writeln("");
-document.writeln("</body></html>");};
+document.writeln("</body>");};
+document.writeln("<script src=\"https://rawgit.com/psuooo/spo/master/function.js\"></script>");
+document.writeln("</html>");
 
-var obj=document.createElement('script');
-obj.type='text/javascript';
-obj.src='https://rawgit.com/psuooo/spo/master/function.js';
+//var obj=document.createElement('script');
+//obj.type='text/javascript';
+//obj.src='https://rawgit.com/psuooo/spo/master/function.js';
 
-var spotimepoint=setTimeout("document.body.appendChild(obj)",500)
+//var spotimepoint=setTimeout("document.body.appendChild(obj)",500)
