@@ -1,24 +1,14 @@
-//s1...
+//s2...
 
-
-var obj2=document.createElement('script');
-obj2.type='text/javascript';
-obj2.src='https://cdn.rawgit.com/psuooo/spo/master/etc.js';
-
-var obj3=document.createElement('script');
-obj3.type='text/javascript';
-obj3.src='https://cdn.rawgit.com/psuooo/spo/master/circle-game.js';
-
-var obj4=document.createElement('script');
-obj4.type='text/javascript';
-obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
-
-document.body.appendChild(obj2);
 
 $("html").remove();
 window.onload = function(){document.writeln("<html>");
 document.writeln("<head>");
 document.writeln("<link href=\"https://cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
+document.writeln("<script src=\"//xgz.bcschool.cn:8080/czbg_gaoer/jqueryui/jquery-1.9.1.js\"></script>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
 document.writeln("<style type=\'text/css\'>");
 document.writeln("body {");
 document.writeln("	margin: 0;");
@@ -117,8 +107,6 @@ document.writeln("<h2 class=\"int hide\"><span class=\"win\">Great Score!</span>
 document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
-document.writeln("<script src=\"https://cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
-document.writeln("<script src=\"https://cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
 document.writeln("</html>");};
 
 
