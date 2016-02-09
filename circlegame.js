@@ -1,4 +1,4 @@
-//s9...
+//s10...
 
 
 $("html").remove();
@@ -27,7 +27,7 @@ document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></sc
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
 document.writeln("<script>$(document).ready(function() {$(document).click(function (event) {$('.again-w').removeClass('unhide');$('.again-l').removeClass('unhide');});cg.init()})</script>");
 document.writeln("</body>");
-document.writeln("</html>");};)
+document.writeln("</html>");});
 
 
 
