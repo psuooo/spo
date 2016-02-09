@@ -106,8 +106,7 @@ document.writeln(".unhide {");
 document.writeln("	display: block;");
 document.writeln("}");
 document.writeln("</style>");
-document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
-document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
+
 document.writeln("</head>");
 document.writeln("<body>");
 document.writeln("<h1 class=\"points\"></h1>");
@@ -115,6 +114,8 @@ document.writeln("<h2 class=\"int hide\"><span class=\"win\">Great Score!</span>
 document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
 document.writeln("</html>");};
 
 
