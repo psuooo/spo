@@ -1,4 +1,4 @@
-//s...
+//s1...
 
 
 var obj2=document.createElement('script');
@@ -117,13 +117,13 @@ document.writeln("<h2 class=\"int hide\"><span class=\"win\">Great Score!</span>
 document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
+document.writeln("<script src\"https://cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
+document.writeln("<script src\"https://cdn.rawgit.com/psuooo/spo/master/temp1.js\"></script>");
 document.writeln("</html>");};
 
 
 
 
-
-document.body.appendChild(obj2);document.body.appendChild(obj4);
 
 
 
