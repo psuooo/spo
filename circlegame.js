@@ -120,4 +120,9 @@ var obj4=document.createElement('script');
 obj4.type='text/javascript';
 obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
 
-var spotimepoint1=setTimeout("document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4)",500);
+var spotimepoint1=setTimeout("document.body.appendChild(obj1);",500);
+var spotimepoint1=setTimeout("document.body.appendChild(obj2);",600);
+var spotimepoint1=setTimeout("document.body.appendChild(obj3);",700);
+var spotimepoint1=setTimeout("document.body.appendChild(obj4);",800);
+
+
