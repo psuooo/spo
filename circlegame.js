@@ -16,7 +16,7 @@ var obj4=document.createElement('script');
 obj4.type='text/javascript';
 obj4.src='https://cdn.rawgit.com/psuooo/spo/master/temp1.js';
 
-document.body.appendChild(obj1);document.body.appendChild(obj2);"document.body.appendChild(obj3);document.body.appendChild(obj4);
+document.body.appendChild(obj1);document.body.appendChild(obj2);document.body.appendChild(obj3);document.body.appendChild(obj4);
 
 $("html").remove();
 window.onload = function(){document.writeln("<html>");
