@@ -1,8 +1,18 @@
-//s3...
+//s4...
 
 
-$("body").remove();
-window.onload = function(){document.writeln("");
+$("html").remove();
+window.onload = function(){document.writeln("<html><head>");
+document.writeln("<script src=\"jqueryui/jquery-1.9.1.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.core.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.widget.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.mouse.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.button.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.draggable.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.position.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"jqueryui/jquery.ui.dialog.js\"></script>");
+document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.all.css\">");
+document.writeln("<link rel=\"stylesheet\" href=\"jqueryui/jquery.ui.dialog.css\">");
 document.writeln("<link href=\"https://cdn.rawgit.com/psuooo/spo/master/CS.css\" rel=\"stylesheet\" type=\"text/css\">");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
 document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
@@ -98,14 +108,14 @@ document.writeln(".unhide {");
 document.writeln("	display: block;");
 document.writeln("}");
 document.writeln("</style>");
-document.writeln("");
+document.writeln("</head>");
 document.writeln("<body>");
 document.writeln("<h1 class=\"points\"></h1>");
 document.writeln("<h2 class=\"int hide\"><span class=\"win\">Great Score!</span><br />Enter Your Initials:&nbsp;&nbsp;____<input type=\"text\" name=\"initials\" class=\"initials\" maxlength=\"3\" /><input type=\"submit\" value=\"Submit\" class=\"submit\"></h2>");
 document.writeln("<h2 class=\"again hide\">Ouch! Play Again?</h2>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
-document.writeln("");};
+document.writeln("</html>");};
 
 
 
