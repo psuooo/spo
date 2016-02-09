@@ -8,22 +8,13 @@ window.onload = function(){
 document.writeln("<html>");
 document.writeln("<head>");
 document.writeln("<style type=\'text/css\'>");
-document.writeln("body {");
-document.writeln("	margin: 0;");
-document.writeln("	padding: 0;");
-document.writeln("	font-family: Georgia, serif;");
-document.writeln("	text-shadow: 1px 2px #ccc;");
-document.writeln("	color: #fff;");
-document.writeln("}");
-document.writeln("canvas {");
-document.writeln("	background-color: #eaeaea;");
-document.writeln("	width: 100%;");
-document.writeln("	height: 100%;");
-document.writeln("}");
+document.writeln("body {margin: 0;padding: 0;font-family: Georgia, serif;text-shadow: 1px 2px #ccc;color: #fff;}");
+document.writeln("canvas {background-color: #eaeaea;width: 100%;height: 100%;}");
+document.writeln(".points {font-family: Arial, sans-serif;position: absolute;top: 24px;right: 24px;z-index: 999;margin: 0;padding: 0;font-size: 128px;line-height: 128px;}");
 document.writeln("</style>");
 document.writeln("</head>");
 document.writeln("<body>");
-document.writeln("<div style=\"position:fixed;right:0;top:250px;\"><a href=\"javascript:location.reload();\">Replay</a></div>");
+document.writeln("<h1 class=\"points\"></h1>");
 document.writeln("<canvas></canvas>");
 document.writeln("</body>");
 document.writeln("</html>");
@@ -97,69 +88,11 @@ var cg = {
      circles: [],
      death: function() {
      	pts = cg.player.radius
-     	this.stop()
+	cg.init()
+	alert('你的教育结束，单击画面重新开始。')
      	
-     	// Check for High Score
-		var score = pts - cg.config.circle.playerRadius;
-		$.ajax({
-			//url: 'scores.php',
-			data: 'chk=1' + '&p=' + score, 
-			dataType: 'script',
-			type: 'post',
-			success: function (data) {
-					
-				// If High Score, add Initials
-				if (res == 'true') {
-					$('.int').addClass('unhide');
-					$('.initials').focus();
-					$('.submit').click(function(event) {
-  						event.preventDefault();
-  							
-  						// Get entered initials
-  						var init = $('.initials').val();
-  						var init = init.toUpperCase();
-  						if ((init == '') || (init == 'ASS') || (init == 'TIT') || (init == 'POO') || (init == 'WTF') || (init == 'HOE') || (init == 'FAG') || (init == 'GAY') || (init == 'SEX') || (init == 'CUM')) {
-  							var init = 'XXX';
-  						}
-  							
-  						// Remove submit to prevent double clicks
-  						$('.int').removeClass('unhide');
-  							
-  						// Record via AJAX
-						$.ajax({
-							//url: 'scores.php',
-							data: 'int=' + init + '&p=' + score, 
-							dataType: 'html',
-							type: 'post',
-							success: function (data) {
-									
-								// Grab HTML
-								$('#scores', window.parent.document).html(data);
-								$('.blink', window.parent.document).toggle("pulsate", {times:20}, function() {
-									location.reload();
-								})
-							}
-						});	
-  					});
-  				} else {
-  					$('.again').addClass('unhide');
-  					$(document).click(function() {
-     					cg.start()
-     					$('.points').text('');
-     					$('.again').removeClass('unhide');
-     				})
-  				}
-			}
-		});
      },
-     stop: function() {
-     	$(window).unbind('keydown')
-     	$(window).unbind('blur')
-     	$(document).unbind('touchmove')
-     	$(this.canvas).unbind('mousemove')
-     	cg.showCursor()
-     	this.player = false
-     },
+     
      start: function() {
      	cg.dispText = function() {}
      	$(cg.canvas).unbind('click')
@@ -334,7 +267,7 @@ var cg = {
      this.ctx.shadowBlur = 1;
      this.ctx.shadowOffsetX = 1;
      this.ctx.shadowOffsetY = 1;
-     w = this.ctx.measureText(t = '球球小作战，点击屏幕重新开始').width
+     w = this.ctx.measureText(t = 'Eat smaller dots. Avoid bigger dots.').width
      this.ctx.fillText(t, (this.config.width - w)/2, cg.config.height / 2 + 40)
    }
  }
@@ -464,7 +397,7 @@ var cg = {
      cg.ctx.fill()
 
    }
- };
+ }
 
 
 $(document).ready(function() {$(document).click(function (event) {$('.again-w').removeClass('unhide');$('.again-l').removeClass('unhide');});cg.init()})
