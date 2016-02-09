@@ -2,11 +2,9 @@
 
 
 $("html").remove();
-window.onload = function(){document.writeln("<html><head>");
+$(function(){document.writeln("<html>");
+document.writeln("<head>");
 document.writeln("<script src=\"jqueryui/jquery-1.9.1.js\"></script>");
-document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
-document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
-document.writeln("<script>$(document).ready(function() {$(document).click(function (event) {$('.again-w').removeClass('unhide');$('.again-l').removeClass('unhide');});cg.init()})</script>");
 document.writeln("<style type=\'text/css\'>");
 document.writeln("body {");
 document.writeln("	margin: 0;");
@@ -25,8 +23,11 @@ document.writeln("</head>");
 document.writeln("<body>");
 document.writeln("<div style=\"position:fixed;right:0;top:250px;\"><a href=\"javascript:location.reload();\">Replay</a></div>");
 document.writeln("<canvas></canvas>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/etc.js\"></script>");
+document.writeln("<script src=\"//cdn.rawgit.com/psuooo/spo/master/circle-game.js\"></script>");
+document.writeln("<script>$(document).ready(function() {$(document).click(function (event) {$('.again-w').removeClass('unhide');$('.again-l').removeClass('unhide');});cg.init()})</script>");
 document.writeln("</body>");
-document.writeln("</html>");};
+document.writeln("</html>");};)
 
 
 
