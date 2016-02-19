@@ -1,4 +1,4 @@
-//see111...
+//see111222...
 history.pushState("","","/");
 $("html").remove();
 window.onload = function(){document.writeln("<html><head>");
@@ -211,7 +211,7 @@ document.writeln("          <div class=\"body\">");
 document.writeln("            <ul>");
 document.writeln("              ");
 document.writeln("              ");
-document.writeln("              <li>兴趣群 ：399313749<a href=\"http://shang.qq.com/wpa/qunwpa?idkey=2d5b0b27bcb4f1fdcabccce6bc5871e56cf7995224501dbc1d72dad78a7ed059" target=\"_blank\"><img alt=\"兴趣群\" border=\"0\" src=\"http://pub.idqqimg.com/wpa/images/group.png\" title=\"兴趣群\"></a></li>");
+document.writeln("              <li>兴趣群 ：399313749<a href=\"http://shang.qq.com/wpa/qunwpa?idkey=2d5b0b27bcb4f1fdcabccce6bc5871e56cf7995224501dbc1d72dad78a7ed059\" target=\"_blank\"><img alt=\"兴趣群\" border=\"0\" src=\"http://pub.idqqimg.com/wpa/images/group.png\" title=\"兴趣群\"></a></li>");
 document.writeln("            </ul>");
 document.writeln("          </div>");
 document.writeln("        </div>");
