@@ -15,7 +15,7 @@ document.writeln("<link rel=\"stylesheet\" href=\"http://img.yixieshi.com/style/
 document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"http://changyan.itc.cn/v2.5/v20160201141/src/widget/list-indent/upload-img/upload-img.css\"><link charset=\"utf-8\" rel=\"stylesheet\" href=\"http://changyan.itc.cn/v2.5/v20160201141/src/css/changyan2.css?20160201141\"><link charset=\"utf-8\" rel=\"stylesheet\" href=\"http://changyan.itc.cn/v2.5/v20160201141/src/css/skin/default_red/default.css?20160201141\"></head><body>");
 document.writeln("<!-- Wenjuan Layer Begin -->");
 document.writeln("<div id=\"idy_floatdiv\" style=\"position:fixed;right:0;top:250px;\">");
-document.writeln("<a href=\"http://www.wenjuan.com/s/IbABre/\" target=\"blank\"><img src=\"http://www.wenjuan.com/static/images/sharepic/share_pD.png\" /></a>");
+document.writeln("<a href=\"http://www.wenjuan.com/s/IbABre/\" target=\"blank\"><img  width="50" height="250" src=\"http://www.wenjuan.com/static/images/sharepic/share_pD.png\" /></a>");
 document.writeln("</div>");
 document.writeln("<!-- Wenjuan Layer End -->");
 document.writeln("<header id=\"header\" class=\"navbar hidden-xs\">");
