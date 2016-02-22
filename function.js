@@ -1,4 +1,4 @@
-//1111
+//19
   var spo=document.getElementById("spo");
   var spoa="<iframe style=\"width:100%;height:400px;\" src=\"";
   var spob="\" ></iframe>";
@@ -10,6 +10,7 @@
          var pos6="http://xgz.bcschool.cn:8080/czbg_gaoer/studentpage.php?studentid=Circle";
          var pos7="javascript:alert('建设中...');parent.spowork0 ()";
          var pos8="";
+         var pos9="https://www.wenjuan.com/s/UVvaYf/";
   
   function spowork0 () {
             var spo=document.getElementById("spo");
@@ -52,5 +53,8 @@
   		<li><a href="http://v.baidu.com/comic/9975.htm?fr=ala8&amp;ty=43" target="_blank">健康儿童</a></li>\
   		<li><a href="http://baike.baidu.com/link?url=VKKVZEpselVTtOcqetIuesTehbIUIn0U3Dcviq_lHJIDyCZuEYORtotlcTJhTAH7YPtfPs_EpCwnXeui6w6FIK" target="_blank">权威知识</a></li>\
   		<li><a href="javascript:alert(\'建设中...\')" target="_blank">其他相关</a></li>';
+  }
+    function spowork9 () {
+  		spo.innerHTML = spoa+pos9+spob;
   }
 
