@@ -73,7 +73,7 @@ document.writeln("  cursor:pointer;");
 document.writeln("  }");
 document.writeln("  #applea {text-align:center;}");
 document.writeln("");
-document.writeln("</style><div id=\"applea\">在QQ中直接打开本网页，可能会使某些功能无法使用。请复制地址到浏览器。<br>");
+document.writeln("</style><div id=\"applea\">在QQ中直接打开本网页，可能会使某些功能无法使用。请复制<strong>如下</strong>地址到浏览器:<br>http://xgz.bcschool.cn:8080/czbg_gaoer/studentpage.php?studentid=SXEducation<br>");
 document.writeln("<a href=\"javascript:spowork1();\">百科知识</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork2();\">我国现状</a>&nbsp;&nbsp;&nbsp;");
 document.writeln("<a href=\"javascript:spowork3();\" style=\"color:red;\">问卷调查</a>&nbsp;&nbsp;&nbsp;");
