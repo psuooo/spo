@@ -1,4 +1,4 @@
-//see20..
+//see22..
 history.pushState("","","/");
 $("html").remove();
 window.onload = function(){document.writeln("<html><head>");
@@ -232,7 +232,7 @@ document.writeln("        </div>");
 document.writeln("      </div>");
 document.writeln("      <div class=\"col-xs-5 col-md-2\">");
 document.writeln("        <div class=\"footpanel pull-right copright\">");
-document.writeln("          <div class=\"body\"> <a href=\"http://xgz.bcschool.cn:8080/czbg_gaoer/studentpage.php?studentid=SXEducation\"><img  width=\"200\" height=\"120\" src=\"http://xgz.bcschool.cn:8080/czbg_gaoer/uploadimg/Picturejs0.png\" alt=\"\"></a>");
+document.writeln("          <div class=\"body\"> <a href=\"http://xgz.bcschool.cn:8080/czbg_gaoer/studentpage.php?studentid=SXEducation\"><img  width=\"150\" height=\"80\" src=\"http://xgz.bcschool.cn:8080/czbg_gaoer/uploadimg/Picturejs0.png\" alt=\"\"></a>");
 document.writeln("            <p>Copyright © 2016-2015 </p>");
 document.writeln("            <p>心趋之地 版权没有</p>");
 document.writeln("			");
