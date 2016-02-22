@@ -1,4 +1,4 @@
-//see111222...
+//see20..
 history.pushState("","","/");
 $("html").remove();
 window.onload = function(){document.writeln("<html><head>");
@@ -152,7 +152,7 @@ document.writeln("				<!-- 点击排行 -->");
 document.writeln("				<div class=\"widget panel random\">");
 document.writeln("					<div class=\"panel-heading\">");
 document.writeln("						<h3>随机图文</h3><h6>");
-document.writeln("					</h6></div><i>点击查看大图</i><br><a href=\"//www.baidu.com/s?wd=王小波\"  target=\"_blank\"><img style=\"width:150px;height:200px\" src=\"http://t10.baidu.com/it/u=461504238,3219980349&fm=58\"></a>");
+document.writeln("					</h6></div><i>点击查看大图</i><br><a href=\"//www.baidu.com/s?wd=王小波\"  target=\"_blank\"><img style=\"width:150px;height:200px\" src=\"http://xgz.bcschool.cn:8080/czbg_gaoer/uploadimg/SXpic.jpg\"></a>");
 document.writeln("					<div class=\"panel-body\">  </div>");
 document.writeln("				</div>");
 document.writeln("				<!-- 图文推荐END -->");
